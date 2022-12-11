@@ -1,0 +1,20 @@
+texture framebuffer
+float xc
+float yc
+
+
+effect
+{
+	int resx=800;
+	int resy=650;
+	float x=_in.x-xc;
+	float y=_in.y-yc;
+	float dist = 0.5;
+	float r=sqrt(x*x+y*y);
+	if(r>dist){
+		_out=vec4(0, 0, 0, 1);
+	}else{
+		float alpha = (r/dist);
+		_out=framebuffer(_in)*vec4(0, 0, 0, alpha);
+	}
+}

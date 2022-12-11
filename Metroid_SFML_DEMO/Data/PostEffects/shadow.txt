@@ -1,0 +1,31 @@
+texture framebuffer
+float xc
+float yc
+vec3 color
+
+effect
+{
+        
+	int resx=1024;
+	int resy=768;
+	float x=_in.x-xc;
+	float y=_in.y-yc;
+        float dist = 0.5;
+	float r=sqrt(x*x+y*y);
+
+        // Get the value of the current screen pixel
+        vec4 pixel = framebuffer(_in);
+       // float gray = pixel.r * 0.39 + pixel.g * 0.50 + pixel.b * 0.11;
+          float gray = pixel.r * 0.39 + pixel.g * 0.50 + pixel.b * 0.11;
+	if(r>dist){
+               		
+                 _out = vec4(pixel.r * 0.05,pixel.g * 0.05,pixel.b*0.05,1);
+                //_out= vec4(0,0,0,1);
+                  
+
+
+	}else{
+		float alpha = (r/dist) ;
+		_out=framebuffer(_in)*vec4(0.05, 0.05, 0.05, alpha);
+	}
+}

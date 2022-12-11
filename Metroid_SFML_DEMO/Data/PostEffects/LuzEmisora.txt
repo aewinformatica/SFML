@@ -1,0 +1,29 @@
+texture framebuffer
+float xc
+float yc
+float red
+float green
+float blue
+float dist
+float intensidad
+
+effect
+{
+	
+	float x=_in.x-xc;
+	float y=_in.y-yc;	
+	float r=sqrt(x*x+y*y);
+	if(intensidad > 1.0f)
+	intensidad = 1.0f;
+
+        // Get the value of the current screen pixel
+        vec4 pixel = framebuffer(_in);
+
+	if(r>dist){
+		_out=pixel;
+	}else{
+		float alpha = (r/dist);
+		//_out=vec4(1, pixel.g, pixel.b, 1-alpha);
+                  _out=vec4(1, 0, 0, 1-alpha);
+	}
+}

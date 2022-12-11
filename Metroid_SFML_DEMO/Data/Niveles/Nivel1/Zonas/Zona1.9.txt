@@ -1,0 +1,18 @@
+[TMX]
+<source=[../Data/Niveles/Nivel1/Zonas/Zona1.9.tmx] > 
+  
+[SETTINGS]
+<parametros=[gravity=660;light=255;] > 
+  
+[MUSICA]  
+<source=[../Data/Musica/12 - Item Room.ogg] >  
+
+[PARALLAX]
+<source=[../Data/Sprites/space.png] parametros=[factor_x=0.0005; repeat_x=1; offset_x=0; factor_y=0; repeat_y=0; offset_y=0; move=1; vel=50; dir=2; fallowViewX=1; fallowViewY=1; fullscreen=1;] >   
+< source=[../Data/Sprites/parallax6.png] parametros=[factor_x=0.0035; repeat_x=1; offset_x=0; factor_y=0; repeat_y=1; offset_y=0; move=0; vel=0; dir=2; fallowViewX=1; fallowViewY=1; fullscreen=1;] >  
+
+
+[VECINAS]                                                    
+<parametros=[direccion=1;idZona=9;posSamus=3;]>  
+<parametros=[direccion=3;idZona=11;posSamus=1;]>  
+

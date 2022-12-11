@@ -1,0 +1,13 @@
+[ZONAS]
+<source=[../Data/Niveles/Nivel1/Zonas/Dock.txt]    IDZona=[0]>>
+<source=[../Data/Niveles/Nivel1/Zonas/Zona1.0.txt] IDZona=[1]>>
+<source=[../Data/Niveles/Nivel1/Zonas/Zona1.1.txt] IDZona=[2]>>
+<source=[../Data/Niveles/Nivel1/Zonas/Zona1.2.txt] IDZona=[3]>>
+<source=[../Data/Niveles/Nivel1/Zonas/Zona1.3.txt] IDZona=[4]>>
+<source=[../Data/Niveles/Nivel1/Zonas/Zona1.4.txt] IDZona=[5]>>
+<source=[../Data/Niveles/Nivel1/Zonas/Zona1.5.txt] IDZona=[6]>>
+<source=[../Data/Niveles/Nivel1/Zonas/Zona1.6.txt] IDZona=[7]>>
+<source=[../Data/Niveles/Nivel1/Zonas/Zona1.7.txt] IDZona=[8]>>
+<source=[../Data/Niveles/Nivel1/Zonas/Zona1.8.txt] IDZona=[9]>>
+<source=[../Data/Niveles/Nivel1/Zonas/Zona1.9.txt] IDZona=[10]>>
+<source=[../Data/Niveles/Nivel1/Zonas/Zona1.10.txt] IDZona=[11]>>

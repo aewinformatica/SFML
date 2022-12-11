@@ -1,0 +1,16 @@
+[TMX]
+<source=[../Data/Niveles/Nivel1/Zonas/Zona1.10.tmx] > 
+  
+[SETTINGS]
+<parametros=[gravity=660;light=255;] > 
+  
+[MUSICA]  
+<source=[../Data/Musica/VS.ogg] >  
+
+[PARALLAX]
+< source=[../Data/Sprites/parallax4.png] parametros=[factor_x=0.0035; repeat_x=1; offset_x=0; factor_y=0; repeat_y=1; offset_y=0; move=0; vel=0; dir=2; fallowViewX=1; fallowViewY=1; fullscreen=1;] >  
+
+
+[VECINAS]                                                    
+<parametros=[direccion=1;idZona=10;posSamus=3;]>  
+

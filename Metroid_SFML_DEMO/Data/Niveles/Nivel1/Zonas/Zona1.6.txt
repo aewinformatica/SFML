@@ -1,0 +1,13 @@
+[TMX]
+<source=[../Data/Niveles/Nivel1/Zonas/Zona1.6.tmx] > 
+  
+[SETTINGS]
+<parametros=[gravity=660;light=255;] > 
+  
+[MUSICA]  
+<source=[../Data/Musica/12 - Item Room.ogg] >  
+
+
+[VECINAS]                                                    
+< parametros=[direccion=3;idZona=6;posSamus=4;]>  
+< parametros=[direccion=4;idZona=8;posSamus=3;]> 

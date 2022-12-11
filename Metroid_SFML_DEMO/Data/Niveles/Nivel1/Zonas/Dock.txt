@@ -1,0 +1,19 @@
+[TMX]
+< source=[../Data/Niveles/Nivel1/Zonas/Dock.tmx] >   
+
+
+[SETTINGS]
+< parametros=[gravity=660;light=255;] >   
+
+[MUSICA]  
+< source=[../Data/Musica/04 - Environment Sound (Silence 1).ogg] >  
+
+[PARALLAX]  
+< source=[../Data/Sprites/space.png] parametros=[factor_x=0.0005; repeat_x=1; offset_x=0; factor_y=0; repeat_y=0; offset_y=0; move=1; vel=50; dir=2; fallowViewX=1; fallowViewY=1; fullscreen=1;] >  
+< source=[../Data/Sprites/dock2.png] parametros=[factor_x=0.004; repeat_x=1; offset_x=0; factor_y=-0.004; repeat_y=0; offset_y=0; move=0; vel=0; dir=0; fallowViewX=1; fallowViewY=1; fullscreen=1;] > 
+
+[VECINAS]                           //---*//1=Izq Sup; 2=Arriba ; 3=Derecha Sup; 4=Izq Inf; 5=Abajo ; 6=Der Inf;//                          
+< parametros=[direccion=3;idZona=1;posSamus=1;] > 
+
+  
+

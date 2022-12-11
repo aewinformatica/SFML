@@ -1,0 +1,18 @@
+[TMX]
+< source=[../Data/Niveles/Nivel1/Zonas/Zona1.2.tmx] >   
+
+
+[SETTINGS]
+< parametros=[gravity=660;light=255;] >   
+
+[MUSICA]  
+< source=[../Data/Musica/05 - Environment Sound (Tension).ogg] >  
+
+[PARALLAX]
+< source=[../Data/Sprites/parallax2.png] parametros=[factor_x=0.0; repeat_x=0; offset_x=0; factor_y=-0.0035; repeat_y=1; offset_y=0; move=0; vel=0; dir=0; fallowViewX=0; fallowViewY=1; fullscreen=0;] >  
+                        
+
+[VECINAS]                             //---*//1=Derecha, 2=Izquierda, 3=Arriba, 4=Abajo;                            
+< parametros=[direccion=2;idZona=2;posSamus=5;] >  
+< parametros=[direccion=6;idZona=4;posSamus=4;] >  
+      
